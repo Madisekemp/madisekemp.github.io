@@ -5,8 +5,79 @@
 
 #c1{
     background-color: #3bff00;
-    color: white;
+    color: black; 
     font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#c2{
+    background-color: #00ccff;
+    color: #111;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#c3{
+    background-color: #ff8123;
+    color: #111;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Color Palette 2 */
+
+#head2{
+    font-family: fantasy;
+    text-align: center;
+}
+
+#c4{
+    background-color: #e7d8ff;
+    color: #111;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#c5{
+    background-color: #d896ff;
+    color: #111;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+
+}
+
+#c6{
+    background-color:#be29ec ;
+    color: #111;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#c7{
+    background-color: #ffbfd3;
+    color: #111;
+    font-family: Arial;
+    text-align: center;
+    padding: 24px;
+}
+
+#c8{
+    background-color: #ff0065;
+    color: #111;
+    font-family: Arial;
+    text-align: center;
+    padding: 24px;
+}
+
+#c9{
+    background-color: #fb9f9f;
+    color: #111;
+    font-family: Arial;
     text-align: center;
     padding: 24px;
 }
