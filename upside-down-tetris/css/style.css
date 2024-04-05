@@ -34,6 +34,42 @@
     background-color: blue;
     border-color: blue;
 }
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+.teal {
+    background-color: teal;
+    border: teal;
+}
+.lav {
+    background-color: lavender;
+    border-color: lavender;
+}
+.pin {
+    background-color: pink;
+    border-color: pink;
+}
+.coral {
+    background-color: coral;
+    border: coral;
+}
+.blu {
+    background-color: blue;
+    border: blue;
+}
+.lav {
+    background-color: lavender;
+    border: lavender;
+}
+.pin {
+    background-color: pink;
+    border-color: pink;
+}
+.coral {
+    background-color: coral;
+    border: coral;
+}
 .long {
     padding: 25px 61.75px;
 }
