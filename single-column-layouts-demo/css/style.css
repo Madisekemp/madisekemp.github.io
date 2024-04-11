@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin: 0px auto;
+
+}
+.light-container {
+    background-color: pink;
+
+}
+.dark-container {
+    background-color: purple;
+    padding: 48px 0px;
+    color: white;
+}
+
+
