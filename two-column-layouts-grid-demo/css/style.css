@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: "main sidebar";
+}
+
+#sidebar {
+   grid-area: sidebar;
+   padding: 18px;
+}
+
+#sidebar li {
+   background-color: lightgreen;
+   grid-area: main;
+}
+
+#main {
+    background-color: lightblue;
+    grid-area: main;
+}
+
+
+
