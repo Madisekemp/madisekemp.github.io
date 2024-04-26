@@ -5,13 +5,17 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#hero {
+#Portfolio {
     background-image: url(../images/DisortWave.jpg);
     background-size: cover;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#header {
+   
+
 }
 #hero h1 {
     background-color: #d8d8d8;
