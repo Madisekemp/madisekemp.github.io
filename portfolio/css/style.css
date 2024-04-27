@@ -13,13 +13,29 @@ body {
     align-items: center;
     justify-content: center;
 }
-#header {
-   
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: blueviolet;
+    background-color: gold;
+
+
+}
+.nav-container a:hover {
+    color: #8e75ff;
 
 }
 #hero h1 {
     background-color: #d8d8d8;
     padding: 20px;
+    text-align: center;
 }
 
 #layout {
@@ -28,7 +44,28 @@ body {
     text-align: center;
 }
 
-.basic-grid-gallery {
+
+
+.card {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(
+        -50deg, 
+        #ffdbdb, 
+        #fff7f7, 
+        #ffc9c9
+    );
+    height: 400px;
+}
+
+#card-layout {
+    display: flex;
+}
+
+ .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
@@ -74,4 +111,4 @@ body {
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 24px;
-}
+} 
