@@ -11,6 +11,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    color: #fff;
+    background-color: #f4e30a;
+}
+.hero {
+    background-image: url(../images/Mystic1.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 24px;
 }
 
 header {
@@ -70,9 +79,7 @@ nav {
     display: block;
 }
 
-main {
-    padding: 20px 0;
-}
+
 
 h1, h2 {
     margin-bottom: 20px;
@@ -82,6 +89,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
 }
 
 footer nav ul {
