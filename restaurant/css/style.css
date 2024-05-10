@@ -63,7 +63,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #000;
     min-width: 150px;
     z-index: 1;
 }
@@ -116,7 +116,7 @@ footer nav ul li a {
     background-color: #555;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
     text-align: center;
 
 }
@@ -131,7 +131,7 @@ footer nav ul li a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -140,6 +140,19 @@ footer nav ul li a {
 
 .cta-button:hover {
     background-color: #555;
+}
+
+.footerStyle {
+    text-align: center;
+    display:inline-flex;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.footerStyle a {
+    padding: 20px;
+    text-decoration: none;
 }
 
 
