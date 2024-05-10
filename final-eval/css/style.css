@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.team-images img {
+    width: 45%;
+    max-width: 200px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.rsvp-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rsvp-btn:hover {
+    background-color: #FF0000;
+}
+
+@media (max-width: 600px) {
+    .team-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-images img {
+        width: 80%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
