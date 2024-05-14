@@ -4,14 +4,14 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: purple;
+    background-color: #f4e30a;
 
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    color: #fff;
+    color: #f4e30a;
     background-color: #f4e30a;
 }
 .hero {
@@ -86,7 +86,7 @@ h1, h2 {
 }
 
 footer {
-    background-color: #333;
+   
     color: #fff;
    
     text-align: center;
@@ -154,13 +154,22 @@ footer nav ul li a {
     padding: 20px;
     text-decoration: none;
 }
+.footerstyle2 {
+    background-color: #27034F;
+    padding: 50px;
+    ;
+}
 .container2 {
     background-color: #27034F;
 }
-.container {
-    color: #F4E30A
-    ;
+.container2 a {
+    color: #fff;
 }
+.footerstyle2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 
 
